@@ -7,7 +7,7 @@
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
-      content="Web site created using create-react-app"
+      content="OTG Research: A collection of research papers and a deep-rooted glossary by Charles Paris."
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <!--
@@ -24,7 +24,25 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <title>OTG Research</title>
+    <!-- Add Inter font for beautiful typography -->
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+    <!-- Load Tailwind CSS directly from a CDN to ensure it's always available -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      /* Ensure the entire body and HTML document are styled for dark mode */
+      html, body, #root {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        background-color: #030712; /* Neutral-950 */
+        color: #e5e7eb; /* Neutral-200 */
+        font-family: 'Inter', sans-serif;
+      }
+    </style>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
@@ -41,3 +59,4 @@
     -->
   </body>
 </html>
+
