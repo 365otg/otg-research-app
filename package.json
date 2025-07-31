@@ -2,14 +2,14 @@
   "name": "otg-research-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://365otg.github.io/otg-research-app",
+  "homepage": "https://otgresearch.info",
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "PUBLIC_URL=/otg-research-app react-scripts build",
+    "build": "PUBLIC_URL=/ react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
